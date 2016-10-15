@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <% include ../partials/header %>
+</head>
+<body class="container">
+
+  <header>
+    <% include ../partials/nav %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Projects</h1>
+      <p>things you do in school count too</p>
+    </div>
+
+    <div class="container">
+      <div class="general-container projects-container">
+        <img src="/images/amazejobs.png"/>
+        <div>
+          <h3>AmazeJobs</h3>
+          <p>
+            AmazeJobs keeps track of users' job applications: their progress, deadlines, and tasks associated with each application. It strives to alleviate the users' burden of remembering all the jobs they applied to, which of them responded, and tasks with deadlines that must not be forgotten.
+          </p>
+          <p class=smaller>
+            Created with Node.js, Mongoose, Google Oauth, Handlebars, and EJS.
+          </p>
+          <a href="https://github.com/TeamHashrocket/AmazeJobs" target="_blank"><span class="fa fa-github project-left-link"> Github</span></a>
+          <a href="http://amazejobs-hashrocket.rhcloud.com/" target="_blank"><span class="fa fa-link"> Site</span></a>
+      </div>
+    </div>
+
+    <div class="general-container projects-container">
+      <img src="/images/roomit.png"/>
+      <div>
+        <h3>RooMIT</h3>
+        <p>
+          RooMIT automates the process of finding the most compatible people to room with at MIT. It provides roommate suggestions to students according to their living preferences and handles the request and approval process.
+          </p>
+          <p class=smaller>
+          Created with Node.js, Mongoose, Handlebars, and EJS.
+        </p>
+        <a href="https://github.com/RooMIT/RooMIT" target="_blank"><span class="fa fa-github project-left-link"> Github</span></a>
+        <a href="http://roomit-roomit.rhcloud.com/" target="_blank"><span class="fa fa-link"> Site</span></a>
+      </div>
+    </div>
+
+    <div class="general-container projects-container">
+      <img src="/images/wsiia.png"/>
+      <div>
+        <h3>What Song Is It Anyway?</h3>
+        <p>
+          This Android app plays snippets of songs from the user's music library on their phone and challenges the user to correctly guess as many song titles as possible in a certain amount of time. Adjustable settings make it easy for users to go at their own pace. Fuzzy matching aids with garbled song titles.
+          </p>
+          <p class=smaller>
+          In a team of four, we started out creating this project for our Android class (21w.789), but went on to continue development and start public releases after the class ended. Made with Java and MySQL.
+        </p>         
+        <a href="https://github.com/Bandits789/WhatSongIsItAnyway" target="_blank"><span class="fa fa-github project-left-link"> Github</span></a>
+        <a href="https://play.google.com/store/apps/details?id=com.wsiia" target="_blank"><span class="fa fa-play-circle"> Play Store</span></a>
+      </div>
+    </div>
+
+    <div class="general-container projects-container">
+      <img src="/images/scrap.png"/>
+      <div>
+        <h3>Scrap</h3>
+        <p>
+          A web app for creating collaborative scrapbook-like spaces that contain any and all types of content and allows for custom content arrangement. Arose out of Originate's intern independent project program. 
+          </p>
+          <p class=smaller>
+          Made with Node.js, Coffeescript, Socket.io, Sequelize, and Jade.
+        </p>
+        <a href="https://github.com/SMores/scrap-mirror" target="_blank"><span class="fa fa-github project-left-link"> Github</span></a>
+        <a href="http://54.88.10.251:9001/" target="_blank"><span class="fa fa-link"> Site</span></a>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer>
+    <% include ../partials/footer %>
+  </footer>
+
+</body>
+</html>
