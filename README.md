@@ -2,7 +2,7 @@
 
 Check it out at: https://agile-reef-73160.herokuapp.com/
 
-The best part about creating a basic personal website is the fruitful plethora of resources available to you on the web! I decided to use Bootstrap (which has a lot of styling and shared components you can use), as well as node/ejs partials (templates so that you don't have to repeat a lot of code on your pages), and a few other things to help me get started. I always find that the toughest part about a website like this is coming up with reasonable content and then tackling it piece by piece. It won't look like amazing at first, so give yourself time to learn your way around the code before beautifying!!
+The best part about creating a basic personal website is the fruitful plethora of resources available to you on the web! I decided to use Bootstrap (which has a lot of styling and shared components you can use), as well as node/ejs partials (templates so that you don't have to repeat a lot of code on your pages), and a few other things to help me get started. I always find that the toughest part about a website like this is coming up with reasonable content and then tackling it piece-by-piece. It won't look like amazing at first, so give yourself time to learn your way around the code before beautifying!!
 
 Feel free to ask me questions as you go or just poke around and see what you like. Here are some notable things:
 
